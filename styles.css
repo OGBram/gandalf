@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+#photo img {
+  position: absolute;
+  max-width: 600px;
+  height: 550px;
+  opacity: 1;
+  transition: opacity 5.5s;
+  top: +5%;
+}
+
+#photo p {
+  position: relative;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgreen;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 1em;
+  transition: .5s;
+  background-color: transparent;
+}
+
+#hoverCheckbox {
+  display: none;
+}
+
+#hoverCheckbox:checked + #photo label {
+  display: none;
+}
+
+#myCanvas {
+  
+  width: 100%;
+  max-width: 608px;
+  position: absolute;
+  border: 2px solid greenyellow;
+  opacity: .5;
+  height: 550px;
+  transition: opacity 3.5s;
+}
+
+#imageContainer {
+  display: none;
+  position: absolute;
+}
