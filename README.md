@@ -1,2 +1,2 @@
-# gandalf.jpeg
- game/art/personal
+Gandalf contra
+game/art/personal
