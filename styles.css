@@ -1,19 +1,35 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
   background-color: black;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 #myCanvas {
-  width: 85%;
-  max-width: 608px;
+  width: 100%;  
   position: absolute;
-  /* border: 2px solid greenyellow; */
+  max-width: 608px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow-y: scroll;
 }
 
 #imageContainer {
   display: none;
   position: absolute;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #myCanvas {
+    width: 100%; 
+    height: 100vh; 
+    position: absolute;
+    max-width: none;
+    left: 0; 
+    transform: none; 
+    overflow-y: none;
+  }
 }
