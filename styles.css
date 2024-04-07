@@ -10,10 +10,12 @@ body {
 #myCanvas {
   width: 100%;  
   position: absolute;
-  max-width: 608px;
+  max-width: 375px;
   left: 50%;
   transform: translateX(-50%);
-  overflow-y: scroll;
+  height: 100%;
+
+
 }
 
 #imageContainer {
