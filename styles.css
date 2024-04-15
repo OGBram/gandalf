@@ -21,7 +21,6 @@ body {
   position: absolute;
 }
 
-
 @media only screen and (max-width: 768px) {
   #myCanvas {
     width: 100%; 
