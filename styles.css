@@ -14,7 +14,7 @@ body {
   max-width: 375px;
   left: 50%;
   transform: translateX(-50%);
-  height: 100%;
+  height: auto;
 }
 
 #imageContainer {
@@ -30,6 +30,5 @@ body {
     max-width: none;
     left: 0; 
     transform: none; 
-    overflow-y: none;
   }
 }
