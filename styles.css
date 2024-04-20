@@ -14,7 +14,7 @@ body {
   max-width: 375px;
   left: 50%;
   transform: translateX(-50%);
-  height: auto;
+  height: 100vh;
 }
 
 #imageContainer {
@@ -29,6 +29,6 @@ body {
     position: absolute;
     max-width: none;
     left: 0; 
-    transform: none; 
+    transform: none;
   }
 }
