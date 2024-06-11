@@ -9,9 +9,8 @@ body {
 }
 
 #myCanvas {
-  width: 100%;  
   position: absolute;
-  max-width: 375px;
+  max-width: 608px;
   left: 50%;
   transform: translateX(-50%);
   height: 100vh;
@@ -30,5 +29,6 @@ body {
     max-width: none;
     left: 0; 
     transform: none;
+
   }
 }
