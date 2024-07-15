@@ -1,4 +1,4 @@
 Arcade game in development. 
 
-[Play](ogbram.github.com/gandalf)
+[Play](https://ogbram.github.io/gandalf)
 
