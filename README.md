@@ -1,2 +1,2 @@
-Arcade game in development Play now: #ogbram.github.io/gandalf
+Arcade game in development Play now: \n ogbram.github.io/gandalf
 
