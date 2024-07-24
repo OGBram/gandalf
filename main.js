@@ -5,15 +5,15 @@ canvas.width = 608;
 canvas.height = 1216;
 const tileWidth = 32;
 const tileHeight = 32;
-const audio3 = new Audio(document.getElementById("audioSpell").src);
 const audio1 = new Audio(document.getElementById("audioMusic").src);
 const audio2 = new Audio(document.getElementById("audioGold").src);
+const audio3 = new Audio(document.getElementById("audioSpell").src);
 audio1.autoplay = false;
 audio2.autoplay = false;
 audio3.autoplay = false;
 audio1.volume = .2;
-audio3.volume = .5;
 audio2.volume = .2;
+audio3.volume = .5;
 
     class Player {
     constructor(game, health){
@@ -31,7 +31,7 @@ audio2.volume = .2;
         this.frameY = 4;
         this.maxFrame = 0;
         this.image = document.getElementById("player");
-        this.speed = 2.25;
+        this.speed = 2.5;
         this.health = health;
         this.healthBarWidth = 30;
         this.healthBarHeight = 7;
@@ -919,11 +919,11 @@ audio2.volume = .2;
             
             setInterval(() => {
                 this.npcPool.push(new Npc());
-            }, 750);
+            }, 2000);
             
             setInterval(() => {
                 this.npcPool.push(new Npc2());
-            },1500);
+            },3000);
             
             setInterval(() => {
                 this.npc3Pool.push(new Npc3());
@@ -937,12 +937,12 @@ audio2.volume = .2;
             
             setInterval(() => {
                 this.npcPool.forEach((npc2) => {
-                    for (let x = 0; x < 2; x++) {
+                    for (let x = 0; x < 1; x++) {
                         this.npcSpellPool.push(new Npcspell(game.player, npc2));
                     }
                     
                 })
-            }, 5000);    
+            }, 2000);    
         }
     
         drawMap() {
