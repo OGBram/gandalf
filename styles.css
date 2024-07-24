@@ -20,6 +20,9 @@ body {
   display: none;
   position: absolute;
 }
+#audio {
+  display: none;
+}
 
 @media only screen and (max-width: 768px) {
   #myCanvas {
